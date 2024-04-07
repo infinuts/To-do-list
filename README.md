@@ -1,0 +1,1 @@
+Hello, this is a to-do list website i made, i did not buy a domain for this bc im broke, or just bc i don't really care, you can change the scripts and if u post this, please credit me, and if u don't, it's ok, i won't send the cops after u 💀
