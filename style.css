@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Fallback background color */
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAvElEQVQYlWNgGAWjYBSMglEDlUACAzEQ5VAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIRIAaJBHFAAMzBEhSAGiQQ3FAAzEBIz9L5i2yYNhAAAAAElFTkSuQmCC1'); /* Replace the URL with your desired background pattern */
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 14px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-container button {
+  padding: 14px 24px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task.completed {
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+}
+
+.task button {
+  padding: 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task button:hover {
+  background-color: #ff3333;
+}
